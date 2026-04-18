@@ -38,3 +38,18 @@ function toggleDisplayColor() {
   const display = document.getElementById("display");
   display.classList.toggle("alt-display");
 }
+const colors = ["blue", "pink", "green", "yellow"];
+let currentColorIndex = 0;
+
+function changeDisplayColor() {
+  const display = document.getElementById("display");
+
+  // remove all color classes first
+  display.classList.remove(...colors);
+
+  // add next color
+  display.classList.add(colors[currentColorIndex]);
+
+  // move to next index
+  currentColorIndex = (currentColorIndex + 1) % colors.length;
+}

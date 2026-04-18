@@ -83,3 +83,22 @@ button:hover {
   background: #4CAF50 !important;
   color: white !important;
 }
+.blue {
+  background: #3498db !important;
+  color: white !important;
+}
+
+.pink {
+  background: #ff69b4 !important;
+  color: white !important;
+}
+
+.green {
+  background: #2ecc71 !important;
+  color: white !important;
+}
+
+.yellow {
+  background: #f1c40f !important;
+  color: black !important;
+}
