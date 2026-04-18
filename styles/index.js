@@ -34,3 +34,7 @@ function addToHistory(entry) {
 function clearHistory() {
   historyList.innerHTML = "";
 }
+function toggleDisplayColor() {
+  const display = document.getElementById("display");
+  display.classList.toggle("alt-display");
+}

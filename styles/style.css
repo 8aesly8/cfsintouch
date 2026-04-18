@@ -78,3 +78,8 @@ button:hover {
   width: 100%;
   background: #c0392b;
 }
+/* Alternate display color */
+.alt-display {
+  background: #4CAF50 !important;
+  color: white !important;
+}
